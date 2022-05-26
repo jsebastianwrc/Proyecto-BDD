@@ -14,3 +14,12 @@ En el archivo loging.feature metimos todos los casos que tenían que ver con log
 como login válido credenciales válidos, inválidos, login con una cuenta que está bloqueada
 
 Nuestra feature se llama login into the  application a nivel de negocio; Tengo una cuenta activa él envía sus credenciales válidas teniendo acceso para manejar la cuenta
+
+____________________________________________________________
+
+Prerequisistos:
+JDK 1.8
+Git
+Intellij
+Intellij Plugins: cucumber for java, lombok, GitToolBox, Hocon y logstash
+
