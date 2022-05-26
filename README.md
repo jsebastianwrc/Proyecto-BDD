@@ -1,30 +1,16 @@
-README
-SERENITY WEB TRAINING
+INTEGRANTES:
 
-Install skipping the tests:
-mvn install -DskipTests
+Doublier Rodríguez Padilla
+Juan Sebastián Cruz Pedroza
 
-Run the tests:
-GRADLE
-gradle clean test -Dwebdriver.driver=firefox -Denvironment=staging
-gradle clean test -Dwebdriver.driver=chrome -Denvironment=staging
+Feature con cucumber y Gherkin utilizando el patrón de diseño screenplay bajo la implementación del framework Serenity
+Están separadas por carpetas
+la aplicación que usamos fue appitools
+https://demo.applitools.com/hackathon.html
+Aquí tenemos un formulario sencillo donde puedo ingresar username passwoord
+En el serenity.conf reemplazamos la URL por esta; https://demo.applitools.com/hackathon.html en todos los ambientes
 
-MAVEN
-mvn clean verify -Dwebdriver.driver=chrome -Denvironment=staging
+En el archivo loging.feature metimos todos los casos que tenían que ver con login
+como login válido credenciales válidos, inválidos, login con una cuenta que está bloqueada
 
-
-
-Running by tags
-
-Maven:
-mvn verify -Dcucumber.options="--tags '@login or @foo'"
-mvn verify -Dcucumber.options="--tags @login"
-
-
-gradle clean test -Dcucumber.options="--tags '@login or @foo'"
-gradle clean test -Dcucumber.options="--tags @login"
-
-CHROME PREFERENCES:
-
-https://johnfergusonsmart.com/configuring-chromedriver-easily-with-serenity-bdd/
-https://chromium.googlesource.com/chromium/src/+/master/chrome/common/pref_names.cc
+Nuestra feature se llama login into the  application a nivel de negocio; Tengo una cuenta activa él envía sus credenciales válidas teniendo acceso para manejar la cuenta
