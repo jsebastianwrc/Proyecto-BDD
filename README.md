@@ -1,6 +1,6 @@
 INTEGRANTES:
 
-Doublier Rodríguez Padilla
+Doublier Rodríguez Padilla - 
 Juan Sebastián Cruz Pedroza
 
 Feature con cucumber y Gherkin utilizando el patrón de diseño screenplay bajo la implementación del framework Serenity
